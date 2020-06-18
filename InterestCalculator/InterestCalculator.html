@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head> <script src="math.js" type="text/javascript"></script> </head> 
+    <style>
+		body {
+			background-image: url("https://image.freepik.com/free-vector/green-white-polygonal-background_1035-6041.jpg");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+	}
+	</style>
+
+  <img src="https://static1.squarespace.com/static/5d43f9c9f990850001393e8e/t/5d495ce3e8d49600019cf135/1570538099542/" d-block w-60" alt="" width="300" height="140" />
+ 
+<style>
+       .button {
+       background-color: white;
+       border-radius: 4px;
+       border:none;
+       color: #008000;
+       padding: 11px 16px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 14px;
+       margin: 4px 2px;
+       cursor: pointer;
+       }
+ 
+       .header-button {
+background-color: white;
+text-align: center;
+       }
+    </style>
+ </head>
+ <body>
+ 
+    <div class="header-button">
+   <a href="https://SeashellQuarterlyLaw--five-nine.repl.co" class="button">Who We Are</a>
+   <a href="https://PlainFabulousConversions--five-nine.repl.co " class="button">Why Invest</a>
+    <a href="https://UrbanUnusedGraphics--five-nine.repl.co " class="button">Interest Tracker</a>
+    <a href="https://DelectableExcitableRecovery--five-nine.repl.co " class="button">Find a Financial Advisor</a>
+    <a href=" https://PositiveCreepySynergy--five-nine.repl.co " class="button">Connect Program</a>
+</div>
+   </script>
+ </body>
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script type="text/javascript"> 
+    	 
+		var user_input=prompt("What type of interest will you be collecting? Enter 'a' for Simple or 'b' for Compound?");
+		var comp = 'b'; 
+		var comp_2 = 'a'; 
+		if (user_input == comp) { 
+    		var prince_amount = prompt("Enter the principle amount"); 
+            prince_amount = parseFloat(prince_amount); 
+    		var rate_of_int = prompt("What's the interest rate?"); 
+            rate_of_int = parseFloat(rate_of_int); 
+    		var time_period = prompt("How long will it be invested, in years?"); 
+            time_period = parseFloat(time_period); 
+            var n = prompt("How many times a year will it be compounded?"); 
+            n = parseFloat(n); 
+    		var comp_interest_earned = prince_amount*((1+(rate_of_int/(100*n))),(n*time_period));
+    		document.write("This is how much you're going to earn: $" + comp_interest_earned); 
+            }
+		else if (user_input == comp_2) { 
+    		var prince_amount = prompt("Enter the principle amount"); 
+            prince_amount = parseFloat(prince_amount); 
+    		var rate_of_int = prompt("What's the interest rate?"); 
+            rate_of_int = parseFloat(rate_of_int); 
+    		var time_period = prompt("How long will it be invested, in years?"); 
+            time_period = parseFloat(time_period); 
+    		var future_value = prince_amount*rate_of_int*time_period/100; 
+    		var comp_interest_earned = future_value - prince_amount; 
+    		document.write("This is how much you're going to earn: " + comp_interest_earned); 
+            }
+            
+        else{
+        	document.write("Invalid Entry, refresh the page."); 
+            }
+    </script>
+   
+  <body> 
+  
+  </body>
+</html>
